@@ -49,6 +49,7 @@ ul {
     flex-direction: column;
     gap: 16px;
     padding: 24px;
+    align-items: flex-start;
 }
 
 .content h1 {
@@ -66,6 +67,8 @@ ul {
     background-color: #3882F6;
     color: white;
     padding: 8px 24px;
+    border: 0;
+    border-radius: 5px;
 }
 
 .imgplaceholder {
@@ -77,4 +80,42 @@ ul {
     justify-content: center;
     align-items: center;
     height: 300px;
+}
+
+ .info {
+    padding: 32px 64px 128px 64px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center; 
+    gap: 44px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 125px;
+}
+
+.square {
+    border: 2px solid #3882F6;
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.card-text {
+    margin-top: 10px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 14px;
 }
