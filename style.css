@@ -63,7 +63,7 @@ ul {
     color: #E5E7EB
 }
 
-.button { /* need to fix the fact that the button stretches out */
+.button {
     background-color: #3882F6;
     color: white;
     padding: 8px 24px;
@@ -83,7 +83,7 @@ ul {
 }
 
  .info {
-    padding: 32px 64px 128px 64px;
+    padding: 32px 64px 64px 64px;
     text-align: center;
 }
 
@@ -118,4 +118,36 @@ ul {
     text-align: center;
     color: #1F2937;
     font-size: 14px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 128px;
+}
+
+.quote-container {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    margin-bottom: 16px;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.person-name {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    max-width: 500px;
+    width: 100%;
 }
